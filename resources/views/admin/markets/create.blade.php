@@ -110,7 +110,7 @@
 
                     <div class="mb-4">
                         <label for="image_tambah" class="block text-sm font-medium mb-1">Gambar Konten Tambahan</label>
-                        <input type="file" name="image_tambah" id="image_tambah" class="w-full border-gray-300 dark:border-gray-700 dark:bg-gray-900 dark:text-gray-300 focus:border-indigo-500 dark:focus:border-indigo-600 focus:ring-indigo-500 dark:focus:ring-indigo-600 rounded-md shadow-sm" required>
+                        <input type="file" name="image_tambah" id="image_tambah" class="w-full border-gray-300 dark:border-gray-700 dark:bg-gray-900 dark:text-gray-300 focus:border-indigo-500 dark:focus:border-indigo-600 focus:ring-indigo-500 dark:focus:ring-indigo-600 rounded-md shadow-sm">
                         @error('image_tambah')
                             <p class="text-red-500 text-xs mt-1">{{ $message }}</p>
                         @enderror

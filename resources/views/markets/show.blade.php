@@ -7,7 +7,7 @@
 
         @if($market->image_content)
         <div class="flex justify-center mb-8">
-            <img src="{{ Storage::url($market->image) }}" 
+            <img src="{{ Storage::url($market->image_content) }}" 
                  alt="{{ $market->name }}" 
                  class="w-full max-w-md h-64 rounded-lg object-cover shadow-md">
         </div>
@@ -51,7 +51,7 @@
                     <h3 class="font-semibold text-lg mb-3 text-gray-700">Layout Pasar</h3>
                     @if($market->image_tambah)
                         <div class="flex justify-center">
-                            <img src="{{ Storage::url($market->image) }}" 
+                            <img src="{{ Storage::url($market->image_tambah) }}" 
                                  alt="{{ $market->name }}" 
                                  class="w-full max-w-md h-64 rounded-lg object-cover shadow-md">
                         </div>
